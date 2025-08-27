@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8"> <!--trecho faltante-->
+    <meta charset="ASCII">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" 
+    href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+
+        <div>
+
+            <ul class="navegador">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+
+        </div>
+            <img src="assets/logo.png" alt="logomarca escrita 'Landing' em vermelho">
+
+            <button>Buy now</button>
+
+    </header>
+
+    <div class="content">
+
+        <div class="content__titulo">
+            <h2>Introduce Your Product </h2>
+            <h2>Quickly & Effectively</h2>7
+            <img src="https://i.pinimg.com/originals/50/2b/67/502b67618a77344df6d6dfc3503e0069.jpg" width=400"sofa"
+        </div>
+
+        <div class="content_texto">
+            <p>
+                Descubra a elegância suprema deste sofá contemporâneo. Seu design sofisticado e conforto inigualável tornam-no uma adição essencial para sua casa. Escolha a excelência, escolha nosso sofá.
+            </p>
+
+            <p> Seu revestimento em veludo macio proporciona uma sensação acolhedora, enquanto o apoio lombar ajustável      garante relaxamento perfeito. Uma escolha inigualável.</p>
+            <br>
+           <h3>Cadastre-se para receber novidades </h3>
+           <br>
+        <form 
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+        <br>
+        <br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+        <br>
+        <br>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" />
+        <br>
+        <br>
+
+
+        <button type="submit">Cadastrar</button>
+      </form>
+      
+        </div>
+
+        <div>
+            <button>Purchase UI Kit</button>
+
+            <a class="saiba__mais" href="#">Learn More</a>
+        </div>
+
+    </div>
+
+
+
+    <footer>
+
+        
+        <div class="header__footer">
+
+            <p> ©2023 Yourcompany</p>
+            <button>Purchase now</button>
+
+        </div>
+
+        <hr>
+        
+        <div class="footer__footer">
+            <ul class="footer__footer__link">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+
+            <ul>
+                <li><img src="assets/social.png" alt="Redes Sociais"></li>
+            </ul>
+        </div>
+
+    </footer>
+</body>
+
+</html>
